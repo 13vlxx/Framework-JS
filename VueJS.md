@@ -23,3 +23,4 @@
 - Une stabilité hasardeuse : bien que des efforts fussent faits pour améliorer la stabilité du framework, les applications conçues avec ne sont pas toujours réputées pour leur stabilité, surtout si elles sont complexes. Il conviendra à des projets personnels simples, pour ceux plus aboutis, il faudra se tourner vers d’autres technologies comme React ;
 - Une évolutivité perfectible : relativement jeune et open source, Vue est également un framework indépendant qui se concentre principalement sur les applications Web simples et légères ainsi que la création d’interfaces utilisateurs. Il ne dispose pas autant d’extensions que certains frameworks ce qui le limite dans ses possibilités ;
 - Une communauté restreinte : conséquence directe de sa jeunesse, sa communauté s’avère assez réduite et s’avère principalement anglophone.
+  test
