@@ -1,6 +1,105 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c2d43;
+}
+
+nav {
+  background-color: #161b22;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  transition: 0.3s all;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+#vue:hover {
+  color: #3eb27f;
+}
+
+#react:hover {
+  color: #60dbfb;
+}
+
+#ember:hover {
+  color: #e53b29;
+}
+
+#svelt:hover {
+  color: #ff3e00;
+}
+
+#logo {
+  font-size: 1.4rem;
+}
+
+nav .right a {
+  margin-left: 2rem;
+  font-weight: bolder;
+}
+
 .card {
   padding: 2rem;
-  border: 1px solid purple;
+  border: 1px solid white;
   border-radius: 5px;
   margin-bottom: 2rem;
+  width: 70%;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1c2d43;
+  color: white;
+}
+
+#link button {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 0.8rem;
+  border: 1px solid white;
+  transition: all 0.3s;
+  color: white;
+  font-weight: bolder;
+  transition: all 0.5s;
+}
+
+#link button:hover {
+  background-color: white;
+  color: #161b22;
+}
+
+#button {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.description {
+  margin-bottom: 1rem;
 }
