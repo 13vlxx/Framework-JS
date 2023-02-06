@@ -5,12 +5,13 @@ for (let framework of frameworks) {
 
   const htmlContent = `
   <article class="card">
+  <div id="avds">
   <div id="titre"><h2>${framework.name}</h2>
   <div id="image">${framework.img}</div></div>
   <p class="description">${framework.description}</p>
-  <div id="avds"><p>Avantages : ${framework.pros}</p>
-  <p>Désavantages : ${framework.cons}</p></div>
-  <div id="button"><a target="_blank" id="link" href="${framework.link}"><button>Lien du framework</button></a></div>
+  <p>Avantages : ${framework.pros}</p>
+  <p>Désavantages : ${framework.cons}</p>
+  <div id="button"><a target="_blank" id="link" href="${framework.link}"><button>Lien du framework</button></a></div></div>
   </article>
   `;
 
