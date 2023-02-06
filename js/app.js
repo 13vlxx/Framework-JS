@@ -31,3 +31,22 @@ article.append(titleArticle, paraArticle);
 
 //& ajouter l'article à ma section lib
 sectionLib.append(article);
+
+//? On va travailler avec un tableau d'objets
+/* console.log(todos); */
+
+const todosSection = document.querySelector("#todos");
+
+//& on va parcourir le tableau todos
+for (let todo of todos) {
+  console.log(todo);
+  const htmlContent = `
+  <article class="card">
+  <h2>${todo.title}</h2>
+  <p>User : ${todo.userID}</p>
+  <p>Id : ${todo.id}</p>
+  </article>
+  `;
+  //* on ajoute notre template à la section#todos
+  todosSection.innerHTML += htmlContent;
+}
