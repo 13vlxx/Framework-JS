@@ -29,6 +29,17 @@ a {
   transition: 0.3s all;
 }
 
+#titre {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#image {
+  margin-bottom: 1rem;
+}
+
 h2 {
   margin-bottom: 1rem;
 }
@@ -58,12 +69,25 @@ nav .right a {
   font-weight: bolder;
 }
 
+#text {
+  display: none;
+}
+
 .card {
   padding: 2rem;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.343);
+  background-color: #142030;
   border-radius: 5px;
   margin-bottom: 2rem;
-  width: 70%;
+  width: 55%;
+  box-shadow: 5px 5px 20px black;
+}
+
+#avds {
+  background-color: #161b22;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px black;
 }
 
 main {
@@ -102,4 +126,8 @@ section {
 
 .description {
   margin-bottom: 1rem;
+}
+
+img {
+  height: 50px;
 }
