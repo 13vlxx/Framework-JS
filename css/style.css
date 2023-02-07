@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -27,6 +28,7 @@ a {
   text-decoration: none;
   color: red;
   transition: 0.3s all;
+  cursor: pointer;
 }
 
 #titre {
@@ -112,6 +114,7 @@ section {
   color: white;
   font-weight: bolder;
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 #link button:hover {
@@ -135,4 +138,8 @@ section {
 
 img {
   height: 50px;
+}
+
+li {
+  padding: 1rem 0rem;
 }
