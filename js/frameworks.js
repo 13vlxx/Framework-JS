@@ -42,7 +42,9 @@ const frameworks = [
       "<li> Aide à mettre en œuvre les concepts de programmation fonctionnelle (FP) pour développer du code réutilisable.</li>",
       "</ul>",
     ],
-    cons: "React se détourne des composants basés sur les classes, ce qui constitue un obstacle pour les développeurs qui sont à l’aise avec la programmation orientée objet (POO).",
+    cons: [
+      "React se détourne des composants basés sur les classes, ce qui constitue un obstacle pour les développeurs qui sont à l’aise avec la programmation orientée objet (POO).",
+    ],
     link: "https://fr.reactjs.org/",
   },
   {

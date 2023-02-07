@@ -12,7 +12,7 @@ for (let framework of frameworks) {
   <div id="image">${framework.img}</div></div>
   <p class="description">${framework.description}</p>
   <p>Avantages : ${framework.pros.join("")}</p>
-  <p>Désavantages : ${framework.cons}</p>
+  <p>Désavantages : ${framework.cons.join("")}</p>
   <div id="button"><a target="_blank" id="link" href="${
     framework.link
   }"><button>Lien du framework</button></a></div></div>
